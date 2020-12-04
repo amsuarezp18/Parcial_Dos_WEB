@@ -1,0 +1,19 @@
+.container-pokemon-table {
+    margin: 2rem 0 3rem 0;
+  }
+  
+  .bd-grid__table {
+    height: auto;
+    max-width: 1224px;
+  }
+  
+  .max-w__table {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+  }
+  
+  .card-img-pokemon {
+    height: auto;
+    width: 80%;
+  }
