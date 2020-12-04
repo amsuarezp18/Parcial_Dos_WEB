@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import * as d3 from "d3";
-import "./PokemonGraphic.css"
+import "./PokemonGraphic.css";
 
 export default function PokemonGraphic(props) {
   const configTable = async () => {
@@ -62,12 +62,11 @@ export default function PokemonGraphic(props) {
     }
   });
 
-  return ( 
+  return (
     <section className="container-pokemon-graphic max-w__graphic">
-        <div className="bd-grid__graphic">
-    <div id="height-table"></div>
-    </div>
+      <div className="bd-grid__graphic">
+        <div id="height-table"></div>
+      </div>
     </section>
   );
-  
 }
