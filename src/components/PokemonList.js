@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default function PokemonList(props) {
   return (
     <tr>
@@ -16,7 +15,10 @@ export default function PokemonList(props) {
       <td>{props.pokemon.description}</td>
       <td>{props.pokemon.height}</td>
       <td>{props.pokemon.weight}</td>
-      <td>{props.pokemon.type}</td>
+      <td>
+        {props.pokemon.type}
+        <span class="badge badge-secondary">New</span>
+      </td>
     </tr>
   );
 }

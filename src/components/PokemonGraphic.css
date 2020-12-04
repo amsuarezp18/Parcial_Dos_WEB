@@ -1,0 +1,14 @@
+.container-pokemon-graphic {
+  margin: 1rem 0 3rem 0;
+}
+
+.bd-grid__graphic {
+  height: auto;
+  max-width: 1224px;
+}
+
+.max-w__graphic {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}

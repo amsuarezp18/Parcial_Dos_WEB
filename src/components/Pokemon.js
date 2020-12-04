@@ -103,11 +103,9 @@ export default function Pokemon(props) {
         </div>
       </section>
       <section>
-        {/* 
       <PokemonGraphic
          pokemons={messages} 
          />
-         */}
       </section>
     </main>
   );
