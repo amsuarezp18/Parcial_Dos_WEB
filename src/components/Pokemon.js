@@ -41,7 +41,7 @@ export default function Pokemon(props) {
       <section className="container-pokemon-table max-w__table">
         <div className="bd-grid__table">
           <table className="table table-striped">
-            <thead class="thead-dark">
+            <thead className="thead-dark">
               <tr>
                 <th scope="col">#</th>
                 <th scope="col">

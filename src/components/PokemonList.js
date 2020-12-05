@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 export default function PokemonList(props) {
 
@@ -19,7 +19,10 @@ export default function PokemonList(props) {
       <td>
       {props.pokemon.type.map((po) => {
           return (
-            <span class="badge badge-secondary">{po}</span>
+              <div key={"id"+po}>
+                <span 
+                 className="badge badge-secondary">{po}</span>
+              </div>
           ); 
       })} 
       </td>
